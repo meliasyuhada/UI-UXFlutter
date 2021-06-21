@@ -75,7 +75,7 @@ class ReadNewsView extends StatelessWidget {
                       ),
                       SizedBox(width: 6.0),
                       Text(
-                        news.category,
+                        news.category.name,
                         style: kCategoryTitle,
                       ),
                     ],
